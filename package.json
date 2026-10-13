@@ -1,0 +1,52 @@
+{
+  "name": "pdf-tools",
+  "version": "1.0.0",
+  "description": "Toolkit PDF 100% offline & client-side di browser: gabung, pisah, kompres, tanda tangan, OCR, watermark, dan nomor halaman tanpa upload file.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.mjs",
+    "watch": "node build.mjs --watch",
+    "test": "node tests/e2e.mjs"
+  },
+  "license": "MIT",
+  "homepage": "https://pdf.solusikoding.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rizalahmaddd/pdf-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rizalahmaddd/pdf-tools/issues"
+  },
+  "keywords": [
+    "pdf",
+    "pdf-tools",
+    "pdf-toolkit",
+    "client-side",
+    "offline-first",
+    "ocr",
+    "tesseract",
+    "pdf-lib",
+    "webassembly"
+  ],
+  "author": "rizalahmaddd",
+  "dependencies": {
+    "@fontsource/atkinson-hyperlegible": "^5.3.0",
+    "@fontsource/caveat": "^5.3.0",
+    "@fontsource/dancing-script": "^5.3.0",
+    "@fontsource/fraunces": "^5.3.0",
+    "@pdf-lib/fontkit": "^1.1.1",
+    "@tesseract.js-data/eng": "^1.0.0",
+    "@tesseract.js-data/ind": "^1.0.0",
+    "esbuild": "^0.28.2",
+    "jszip": "^3.10.2",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^6.3.289",
+    "sortablejs": "^1.15.7",
+    "tesseract.js": "^7.0.0",
+    "tesseract.js-core": "^7.0.0"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.63.0"
+  },
+  "type": "module"
+}

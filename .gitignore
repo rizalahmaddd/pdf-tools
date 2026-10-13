@@ -1,0 +1,29 @@
+node_modules/
+.DS_Store
+**/.DS_Store
+*.zip
+tests/out/
+trash/
+
+# Environment & Logs
+.env
+.env.*
+*.log
+npm-debug.log*
+
+# IDE & Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Berkas pribadi / materi jualan komersial
+promo
+listing/
+lynk/
+threads/
+release/
+release.mjs
+/Mulai di Sini - Panduan.pdf
+/Start Here - Guide.pdf
+/README.txt

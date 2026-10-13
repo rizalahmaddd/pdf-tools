@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="connect-src 'none'; form-action 'none'; frame-src 'none'; object-src 'none'">
+<title>PDF Toolkit</title>
+<link rel="stylesheet" href="assets/app-style.css">
+</head>
+<body>
+<div id="app">
+  <div style="max-width:640px;margin:48px auto;padding:24px;font-family:system-ui,sans-serif;line-height:1.55;color:#2b211b;background:#fffcf7;border:1px solid #e2d5c2;border-radius:10px">
+    <h1 style="font-size:22px;margin:0 0 12px">The toolkit could not start</h1>
+    <p style="margin:0 0 10px">This usually means the file was opened straight from inside the ZIP, or the <b>assets</b> folder was moved away from this file.</p>
+    <ol style="margin:0 0 14px;padding-left:20px">
+      <li>Extract (unzip) the whole download first. On Windows: right-click the ZIP and choose <b>Extract All</b>. On a Mac: double-click the ZIP.</li>
+      <li>Open the extracted folder and double-click <b>PDF Toolkit.html</b>. Keep the <b>assets</b> folder next to it.</li>
+    </ol>
+    <p style="margin:0;color:#5f5147;font-size:14px">Alat tidak bisa berjalan. Ekstrak (unzip) dulu seluruh file unduhan, lalu buka PDF Toolkit.html dari folder hasil ekstrak. Folder assets harus tetap berada di sebelahnya.</p>
+  </div>
+</div>
+<noscript><p style="padding:24px;font-family:sans-serif">This toolkit needs JavaScript. Please enable it in your browser settings.</p></noscript>
+<script src="assets/pdf-worker.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
